@@ -1,0 +1,23 @@
+.btn-warning:hover{
+    background-color: lightpink;
+    text-decoration: wavy;
+}
+
+h2{
+    border-radius: 30px;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+canvas{
+    animation-name: KIARA;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes KIARA{
+   0%{box-shadow: 1px 1px 38px salmon;}
+   25%{box-shadow: 1px 1px 38px gold;}
+   50%{box-shadow: 1px 1px 38px cornflowerblue;}
+   100%{box-shadow: 1px 1px 38px salmon;}
+}
